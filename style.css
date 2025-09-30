@@ -1,3 +1,6 @@
+body {
+  background-color: lightcyan;
+}
 #navbar {
     background-color: #414141;
     color: white;
@@ -30,4 +33,14 @@
 h1 {
     color: black;
     text-align: center;
+}
+body {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+img {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
 }
