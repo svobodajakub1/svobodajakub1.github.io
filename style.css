@@ -101,3 +101,15 @@ img {
     display: flex;
   }
 }
+@media (max-width: 768px) {
+  body *:not(img) {
+    display: none !important;
+  }
+
+  img {
+    display: block !important;
+    margin: 10px auto;
+    max-width: 90%;
+    height: auto;
+  }
+}
