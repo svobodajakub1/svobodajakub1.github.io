@@ -105,8 +105,8 @@ img {
 
   img {
     display: block !important;
-    margin: 10px auto;
-    max-width: 90%;
-    height: auto;
+    margin: 20px auto !important;
+    max-width: 90% !important;
+    height: auto !important;
   }
 }
