@@ -94,7 +94,7 @@ img {
   display: flex;
 }
 
-/* 🟢 Funkční mobilní styl: zobrazí jen obrázky */
+
 @media (max-width: 768px) {
   body *:not(img) {
     display: none !important;
