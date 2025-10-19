@@ -1,5 +1,8 @@
 body {
   background-color: lightgrey;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
 }
 
 #navbar {
@@ -34,12 +37,6 @@ body {
 h1 {
   color: black;
   text-align: center;
-}
-
-body {
-  border: 2px solid black;
-  padding: 20px;
-  margin: 20px;
 }
 
 img {
@@ -96,8 +93,8 @@ img {
 .nav-links.active {
   display: flex;
 }
-}
 
+/* 🟢 Funkční mobilní styl: zobrazí jen obrázky */
 @media (max-width: 768px) {
   body *:not(img) {
     display: none !important;
