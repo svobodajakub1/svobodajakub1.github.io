@@ -1,6 +1,6 @@
 body {
   background-color: lightgrey;
-  border:none;
+  border: none;
   padding: 20px;
   margin: 20px;
 }
@@ -101,7 +101,6 @@ img {
 @media (max-width: 37.5rem) {
   #navbar ul li a {
     font-size: 0;
-    /* skryje text */
   }
 
   #navbar ul li a i {
